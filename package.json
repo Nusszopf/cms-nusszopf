@@ -1,0 +1,33 @@
+{
+	"name": "nusszopf-cms",
+	"private": true,
+	"version": "1.0.0",
+	"description": "",
+	"main": "package.json",
+	"author": "schwamic <schwarz.michael@posteo.net>",
+	"license": "UNLICENSED",
+	"scripts": {
+		"start": "yarn env && sanity start",
+		"test": "yarn env && sanity check",
+		"help": "sanity help",
+		"deploy": "yarn env && sanity deploy && sanity graphql deploy",
+		"env": "export $(cat .env | xargs) && node ./scripts/sanity.js"
+	},
+	"keywords": [ "sanity" ],
+	"dependencies": {
+		"@sanity/base": "^1.149.5",
+		"@sanity/components": "^1.149.5",
+		"@sanity/core": "^1.149.4",
+		"@sanity/default-layout": "^1.149.5",
+		"@sanity/default-login": "^1.149.0",
+		"@sanity/desk-tool": "^1.149.5",
+		"prop-types": "^15.6",
+		"react": "^16.2",
+		"react-dom": "^16.2"
+	},
+	"devDependencies": {},
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:Nusszopf/cms-nusszopf.git"
+	}
+}
