@@ -18,7 +18,8 @@ const config = {
 		"@sanity/components",
 		"@sanity/default-layout",
 		"@sanity/default-login",
-		"@sanity/desk-tool"
+		"@sanity/desk-tool",
+		"@sanity/vision"
 	],
 	"parts": [
 		{
