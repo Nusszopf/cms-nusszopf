@@ -25,6 +25,11 @@ export default {
 			validation: (Rule) => Rule.required().max(60)
 		},
 		{
+			title: 'Untertitel',
+			name: 'subtitle',
+			type: 'string'
+		},
+		{
 			title: 'Inhalt',
 			name: 'content',
 			type: 'array',
