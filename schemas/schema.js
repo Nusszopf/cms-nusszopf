@@ -9,14 +9,18 @@ import page from './documents/page';
 // Object types
 import textSection from './objects/textSection';
 import newsletter from './objects/newsletter';
+import link from './objects/link';
+import internalLink from './objects/internalLink';
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
 	name: 'default',
 	types: schemaTypes.concat([
 		/* Your types here! */
-		page,
+		link,
+		internalLink,
 		textSection,
-		newsletter
+		newsletter,
+		page
 	])
 });
