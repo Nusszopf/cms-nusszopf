@@ -11,6 +11,7 @@ import textSection from './objects/textSection';
 import newsletter from './objects/newsletter';
 import link from './objects/link';
 import internalLink from './objects/internalLink';
+import portableText from './objects/portableText';
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -19,6 +20,7 @@ export default createSchema({
 		/* Your types here! */
 		link,
 		internalLink,
+		portableText,
 		textSection,
 		newsletter,
 		page
