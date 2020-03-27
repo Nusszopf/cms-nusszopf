@@ -12,6 +12,7 @@ import newsletter from './objects/newsletter';
 import link from './objects/link';
 import internalLink from './objects/internalLink';
 import portableText from './objects/portableText';
+import simplePortableText from './objects/simplePortableText';
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -21,6 +22,7 @@ export default createSchema({
 		link,
 		internalLink,
 		portableText,
+		simplePortableText,
 		textSection,
 		newsletter,
 		page
