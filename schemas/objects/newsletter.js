@@ -4,9 +4,14 @@ export default {
 	type: 'object',
 	fields: [
 		{
-			title: 'Titel',
-			name: 'title',
-			type: 'string'
+			title: 'Typ',
+			name: 'type',
+			type: 'array',
+			of: [ { type: 'string' } ],
+			options: {
+				list: [ { title: 'Anmelden', value: 'subscribe' }, { title: 'Abmelden', value: 'unsubscribe' } ]
+			},
+			validation: (Rule) => Rule.required()
 		},
 		{
 			title: 'Beschreibung',
@@ -25,13 +30,13 @@ export default {
 	],
 	preview: {
 		select: {
-			title: 'title',
-			subtitle: 'description'
+			subtitle: 'type'
 		},
-		prepare({ title, subtitle }) {
+		prepare({ subtitle }) {
+			console.log(subtitle);
 			return {
-				title,
-				subtitle
+				title: 'Newsletter',
+				subtitle: subtitle[0] === 'subscribe' ? 'Anmelden' : 'Abmelden'
 			};
 		}
 	}
