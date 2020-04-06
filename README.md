@@ -33,6 +33,4 @@ Build sanity studio to a static bundle and deploy it on [nusszopf.sanity.studio]
 
 ## Sponsors
 
-Thank you [Sanity](https://www.sanity.io/) for sponsoring us!
-
-<img src="./docs/sanity-logo.png" width="100">
+// todo
