@@ -1,10 +1,10 @@
 # Nusszopf CMS
 
-## Live
+## Live 🌎
 
 Studio is running on: [nusszopf.sanity.studio](https://nusszopf.sanity.studio/)
 
-## 101
+## 101 ☕️
 
 1. Start sanity locally `yarn start`
 2. Create new schemas
@@ -13,7 +13,7 @@ Studio is running on: [nusszopf.sanity.studio](https://nusszopf.sanity.studio/)
 5. Push changes to master
 6. Production user can now use new schemas, to create the content
 
-## Scripts
+## Scripts 🤓
 
 ### `yarn help`
 
@@ -31,8 +31,12 @@ A quick sanity check.
 
 Build sanity studio to a static bundle and deploy it on [nusszopf.sanity.studio](https://nusszopf.sanity.studio/).
 
-## Sponsors
+## Sponsors 👏
 
 Thank you [Sanity](https://www.sanity.io/) for sponsoring us!
 
 <img src="./docs/sanity-logo.png" width="100">
+
+## Miscellaneous 🤗
+
+ We are non-profit and open source.
