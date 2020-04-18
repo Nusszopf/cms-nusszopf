@@ -1,9 +1,5 @@
 # Nusszopf CMS
 
-## Live 🌎
-
-Studio is running on: [nusszopf.sanity.studio](https://nusszopf.sanity.studio/)
-
 ## 101 ☕️
 
 1. Start sanity locally `yarn start`
@@ -31,12 +27,12 @@ A quick sanity check.
 
 Build sanity studio to a static bundle and deploy it on [nusszopf.sanity.studio](https://nusszopf.sanity.studio/).
 
-## Sponsors 👏
+## Sponsors
 
 Thank you [Sanity](https://www.sanity.io/) for sponsoring us!
 
 <img src="./docs/sanity-logo.png" width="100">
 
-## Miscellaneous 🤗
+## Miscellaneous
 
  We are non-profit and open source.
