@@ -1,6 +1,6 @@
 # Nusszopf CMS
 
-## 101 ☕️
+## 101
 
 1. Start sanity locally `yarn start`
 2. Create new schemas
@@ -9,7 +9,7 @@
 5. Push changes to master
 6. Production user can now use new schemas, to create the content
 
-## Scripts 🤓
+## Scripts
 
 ### `yarn help`
 
